@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CrimenDroi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo_text">Título</string>
+    <string name="titulo_hint">Ingrese el titulo del crimen</string>
+    <string name="detalles_text">Detalles</string>
+    <string name="agregar_fecha_btn">Agregar Fecha</string>
+    <string name="resuelto_chb">Resuelto</string>
+</resources>

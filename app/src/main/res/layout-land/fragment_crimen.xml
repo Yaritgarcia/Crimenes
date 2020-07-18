@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_text" />
+
+    <EditText
+        android:id="@+id/titulo_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titulo_hint" />
+
+    <TextView
+        android:text="@string/detalles_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:foreground="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/agregar_fecha_btn"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="24dp"
+            android:text="@string/agregar_fecha_btn" />
+
+        <CheckBox
+            android:id="@+id/resuelto_ch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/resuelto_chb" />
+    </LinearLayout>
+
+
+</LinearLayout>
